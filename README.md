@@ -2,6 +2,10 @@
 
 https://github.com/google/googletest
 
-gtest and gmock
+Getting started information for Google Test is available in the Google Test Primer documentation:
+https://github.com/google/googletest/blob/master/googletest/docs/Primer.md
 
-the minimum CMake version 2.6.4 is required
+Google Mock is an extension to Google Test for writing and using C++ mock classes. See the separate Google Mock documentation.
+https://github.com/google/googletest/blob/master/googlemock/README.md
+
+The minimum CMake version 2.6.4 is required
