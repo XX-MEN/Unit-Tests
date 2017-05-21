@@ -7,8 +7,6 @@ int main(int argc, char **argv)
 	return RUN_ALL_TESTS();
 }
 
-
-
 TEST(makeCoffeeTest, TestZwracania) {
 	CoffeeMachine cm;
 	EXPECT_EQ(1, cm.makeCoffee(1));
@@ -28,3 +26,9 @@ TEST(App,startCoffeeMachine_OK)
 	EXPECT_EQ(0, l);
 }
 
+TEST(App,stopCoffeeMachine_FAIL)
+{
+	CoffeeMachine cm;
+	int stop = cm.stopCoffeeMachine();
+	EXPECT_NE(-1, stop);
+}
