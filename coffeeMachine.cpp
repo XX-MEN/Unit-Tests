@@ -47,7 +47,9 @@ int CoffeeMachine::makeCoffee(int choice) {
 		case 2: std::cout << "Black coffee\n"; break;
 		case 3: std::cout << "Late\n"; break;
 		case 4: std::cout << "BIG Late\n"; break;
-		default: //w razie W..
+		default:
+			std::cout << "Nieprawidlowa opcja\n";
+			choice=-1;
 			break;
 	}
 	std::cout << "GOTOWE\n";

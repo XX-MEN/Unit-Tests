@@ -5,7 +5,7 @@ class CoffeeMachine {
 public:
 	int startCoffeeMachine();
 
-//private:
+//private:	//jak bedzie private to nie mam dostepu w testach
 	int makeCoffee(int choice);
 	int stopCoffeeMachine();
 };
