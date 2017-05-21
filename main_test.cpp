@@ -32,3 +32,4 @@ TEST(App,stopCoffeeMachine_FAIL)
 	int stop = cm.stopCoffeeMachine();
 	EXPECT_NE(-1, stop);
 }
+
